@@ -10,7 +10,7 @@ using System.Web.Http;
 
 namespace HN.WebAPI.Controllers
 {
- 
+
     /* the constructor has three parameters. Second argument for valid headers, Third parameter for a valid set of methods*/
     [EnableCors("http://localhost:63009", "*", "*")]
     public class ProductsController : ApiController
